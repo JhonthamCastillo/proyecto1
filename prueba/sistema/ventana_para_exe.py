@@ -2,6 +2,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 #C:\Python\python -m PyInstaller --paths C:\Python\Lib\site-packages\PyQt5\Qt\bin --hidden-import=PyQt5 --clean --noupx --name "TEST" main.py
 #con esta linea que la ejecutamos en consola logramos hacer que se cree el ejecutable con caracteris
 #ticas de windows moderno pero hemos intentado hacerlo sin esta linea y funciono
+#referecia del codigo del que ha sido tomado: https://github.com/pyinstaller/pyinstaller/issues/3417
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
