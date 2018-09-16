@@ -16,5 +16,8 @@ app = QApplication(sys.argv)
 v = Ventana()
 
 app.exec()
+import math
 
-print("hola mundo")
+d = math.pow(12,23)
+d = math.sqrt(d)
+print(d)
